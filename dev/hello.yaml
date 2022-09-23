@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: hello
-        image: chetann/spring:latest
+        image: chetann/spring:7
         ports:
         - containerPort: 8080
