@@ -9,7 +9,7 @@ spec:
   ports:
   - port: 8080
     protocol: TCP
-    targetPort: 8080
+    targetPort: 9090
   selector:
     app.kubernetes.io/name: load-balancer-example
   type: ClusterIP
